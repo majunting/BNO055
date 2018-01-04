@@ -1,0 +1,1601 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F46K80 ]
+[d frameptr 4065 ]
+"141 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/mcc.c
+[e E15164 . `uc
+I2C_MESSAGE_COMPLETE 0
+I2C_MESSAGE_FAIL 1
+I2C_MESSAGE_PENDING 2
+I2C_STUCK_START 3
+I2C_MESSAGE_ADDRESS_NO_ACK 4
+I2C_DATA_NO_ACK 5
+I2C_LOST_STATE 6
+]
+"143
+[e E15278 . `uc
+BNO055_PAGE_ID_ADDR 7
+BNO055_CHIP_ID_ADDR 0
+BNO055_ACCEL_REV_ID_ADDR 1
+BNO055_MAG_REV_ID_ADDR 2
+BNO055_GYRO_REV_ID_ADDR 3
+BNO055_SW_REV_ID_LSB_ADDR 4
+BNO055_SW_REV_ID_MSB_ADDR 5
+BNO055_BL_REV_ID_ADDR 6
+BNO055_ACCEL_DATA_X_LSB_ADDR 8
+BNO055_ACCEL_DATA_X_MSB_ADDR 9
+BNO055_ACCEL_DATA_Y_LSB_ADDR 10
+BNO055_ACCEL_DATA_Y_MSB_ADDR 11
+BNO055_ACCEL_DATA_Z_LSB_ADDR 12
+BNO055_ACCEL_DATA_Z_MSB_ADDR 13
+BNO055_MAG_DATA_X_LSB_ADDR 14
+BNO055_MAG_DATA_X_MSB_ADDR 15
+BNO055_MAG_DATA_Y_LSB_ADDR 16
+BNO055_MAG_DATA_Y_MSB_ADDR 17
+BNO055_MAG_DATA_Z_LSB_ADDR 18
+BNO055_MAG_DATA_Z_MSB_ADDR 19
+BNO055_GYRO_DATA_X_LSB_ADDR 20
+BNO055_GYRO_DATA_X_MSB_ADDR 21
+BNO055_GYRO_DATA_Y_LSB_ADDR 22
+BNO055_GYRO_DATA_Y_MSB_ADDR 23
+BNO055_GYRO_DATA_Z_LSB_ADDR 24
+BNO055_GYRO_DATA_Z_MSB_ADDR 25
+BNO055_EULER_H_LSB_ADDR 26
+BNO055_EULER_H_MSB_ADDR 27
+BNO055_EULER_R_LSB_ADDR 28
+BNO055_EULER_R_MSB_ADDR 29
+BNO055_EULER_P_LSB_ADDR 30
+BNO055_EULER_P_MSB_ADDR 31
+BNO055_QUATERNION_DATA_W_LSB_ADDR 32
+BNO055_QUATERNION_DATA_W_MSB_ADDR 33
+BNO055_QUATERNION_DATA_X_LSB_ADDR 34
+BNO055_QUATERNION_DATA_X_MSB_ADDR 35
+BNO055_QUATERNION_DATA_Y_LSB_ADDR 36
+BNO055_QUATERNION_DATA_Y_MSB_ADDR 37
+BNO055_QUATERNION_DATA_Z_LSB_ADDR 38
+BNO055_QUATERNION_DATA_Z_MSB_ADDR 39
+BNO055_LINEAR_ACCEL_DATA_X_LSB_ADDR 40
+BNO055_LINEAR_ACCEL_DATA_X_MSB_ADDR 41
+BNO055_LINEAR_ACCEL_DATA_Y_LSB_ADDR 42
+BNO055_LINEAR_ACCEL_DATA_Y_MSB_ADDR 43
+BNO055_LINEAR_ACCEL_DATA_Z_LSB_ADDR 44
+BNO055_LINEAR_ACCEL_DATA_Z_MSB_ADDR 45
+BNO055_GRAVITY_DATA_X_LSB_ADDR 46
+BNO055_GRAVITY_DATA_X_MSB_ADDR 47
+BNO055_GRAVITY_DATA_Y_LSB_ADDR 48
+BNO055_GRAVITY_DATA_Y_MSB_ADDR 49
+BNO055_GRAVITY_DATA_Z_LSB_ADDR 50
+BNO055_GRAVITY_DATA_Z_MSB_ADDR 51
+BNO055_TEMP_ADDR 52
+BNO055_CALIB_STAT_ADDR 53
+BNO055_SELFTEST_RESULT_ADDR 54
+BNO055_INTR_STAT_ADDR 55
+BNO055_SYS_CLK_STAT_ADDR 56
+BNO055_SYS_STAT_ADDR 57
+BNO055_SYS_ERR_ADDR 58
+BNO055_UNIT_SEL_ADDR 59
+BNO055_DATA_SELECT_ADDR 60
+BNO055_OPR_MODE_ADDR 61
+BNO055_PWR_MODE_ADDR 62
+BNO055_SYS_TRIGGER_ADDR 63
+BNO055_TEMP_SOURCE_ADDR 64
+BNO055_AXIS_MAP_CONFIG_ADDR 65
+BNO055_AXIS_MAP_SIGN_ADDR 66
+BNO055_SIC_MATRIX_0_LSB_ADDR 67
+BNO055_SIC_MATRIX_0_MSB_ADDR 68
+BNO055_SIC_MATRIX_1_LSB_ADDR 69
+BNO055_SIC_MATRIX_1_MSB_ADDR 70
+BNO055_SIC_MATRIX_2_LSB_ADDR 71
+BNO055_SIC_MATRIX_2_MSB_ADDR 72
+BNO055_SIC_MATRIX_3_LSB_ADDR 73
+BNO055_SIC_MATRIX_3_MSB_ADDR 74
+BNO055_SIC_MATRIX_4_LSB_ADDR 75
+BNO055_SIC_MATRIX_4_MSB_ADDR 76
+BNO055_SIC_MATRIX_5_LSB_ADDR 77
+BNO055_SIC_MATRIX_5_MSB_ADDR 78
+BNO055_SIC_MATRIX_6_LSB_ADDR 79
+BNO055_SIC_MATRIX_6_MSB_ADDR 80
+BNO055_SIC_MATRIX_7_LSB_ADDR 81
+BNO055_SIC_MATRIX_7_MSB_ADDR 82
+BNO055_SIC_MATRIX_8_LSB_ADDR 83
+BNO055_SIC_MATRIX_8_MSB_ADDR 84
+ACCEL_OFFSET_X_LSB_ADDR 85
+ACCEL_OFFSET_X_MSB_ADDR 86
+ACCEL_OFFSET_Y_LSB_ADDR 87
+ACCEL_OFFSET_Y_MSB_ADDR 88
+ACCEL_OFFSET_Z_LSB_ADDR 89
+ACCEL_OFFSET_Z_MSB_ADDR 90
+MAG_OFFSET_X_LSB_ADDR 91
+MAG_OFFSET_X_MSB_ADDR 92
+MAG_OFFSET_Y_LSB_ADDR 93
+MAG_OFFSET_Y_MSB_ADDR 94
+MAG_OFFSET_Z_LSB_ADDR 95
+MAG_OFFSET_Z_MSB_ADDR 96
+GYRO_OFFSET_X_LSB_ADDR 97
+GYRO_OFFSET_X_MSB_ADDR 98
+GYRO_OFFSET_Y_LSB_ADDR 99
+GYRO_OFFSET_Y_MSB_ADDR 100
+GYRO_OFFSET_Z_LSB_ADDR 101
+GYRO_OFFSET_Z_MSB_ADDR 102
+ACCEL_RADIUS_LSB_ADDR 103
+ACCEL_RADIUS_MSB_ADDR 104
+MAG_RADIUS_LSB_ADDR 105
+MAG_RADIUS_MSB_ADDR 106
+]
+"153
+[e E15392 . `uc
+OPERATION_MODE_CONFIG 0
+OPERATION_MODE_ACCONLY 1
+OPERATION_MODE_MAGONLY 2
+OPERATION_MODE_GYRONLY 3
+OPERATION_MODE_ACCMAG 4
+OPERATION_MODE_ACCGYRO 5
+OPERATION_MODE_MAGGYRO 6
+OPERATION_MODE_AMG 7
+OPERATION_MODE_IMUPLUS 8
+OPERATION_MODE_COMPASS 9
+OPERATION_MODE_M4G 10
+OPERATION_MODE_NDOF_FMC_OFF 11
+OPERATION_MODE_NDOF 12
+]
+"168
+[e E15387 . `uc
+POWER_MODE_NORMAL 0
+POWER_MODE_LOWPOWER 1
+POWER_MODE_SUSPEND 2
+]
+"80 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/adc.c
+[e E15090 . `uc
+channel_CTMU 28
+channel_Temp_diode 29
+channel_Vdd_core 30
+channel_1_024V_bandgap 31
+spare1 0
+spare2 4
+BT_FL 1
+pitot 5
+BT_FR 6
+]
+"184 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/i2c.c
+[e E15091 . `uc
+I2C_MESSAGE_COMPLETE 0
+I2C_MESSAGE_FAIL 1
+I2C_MESSAGE_PENDING 2
+I2C_STUCK_START 3
+I2C_MESSAGE_ADDRESS_NO_ACK 4
+I2C_DATA_NO_ACK 5
+I2C_LOST_STATE 6
+]
+"186
+[e E15159 . `uc
+S_MASTER_IDLE 0
+S_MASTER_RESTART 1
+S_MASTER_SEND_ADDR 2
+S_MASTER_SEND_DATA 3
+S_MASTER_SEND_STOP 4
+S_MASTER_ACK_ADDR 5
+S_MASTER_RCV_DATA 6
+S_MASTER_RCV_STOP 7
+S_MASTER_ACK_RCV_DATA 8
+S_MASTER_NOACK_STOP 9
+S_MASTER_SEND_ADDR_10BIT_LSB 10
+S_MASTER_10BIT_RESTART 11
+]
+"69 C:\Users\haoye\Google Drive\18 sec PDM software.X\main.c
+[e E15164 . `uc
+I2C_MESSAGE_COMPLETE 0
+I2C_MESSAGE_FAIL 1
+I2C_MESSAGE_PENDING 2
+I2C_STUCK_START 3
+I2C_MESSAGE_ADDRESS_NO_ACK 4
+I2C_DATA_NO_ACK 5
+I2C_LOST_STATE 6
+]
+"102
+[e E15213 . `uc
+channel_CTMU 28
+channel_Temp_diode 29
+channel_Vdd_core 30
+channel_1_024V_bandgap 31
+spare1 0
+spare2 4
+BT_FL 1
+pitot 5
+BT_FR 6
+]
+"122
+[e E15392 . `uc
+OPERATION_MODE_CONFIG 0
+OPERATION_MODE_ACCONLY 1
+OPERATION_MODE_MAGONLY 2
+OPERATION_MODE_GYRONLY 3
+OPERATION_MODE_ACCMAG 4
+OPERATION_MODE_ACCGYRO 5
+OPERATION_MODE_MAGGYRO 6
+OPERATION_MODE_AMG 7
+OPERATION_MODE_IMUPLUS 8
+OPERATION_MODE_COMPASS 9
+OPERATION_MODE_M4G 10
+OPERATION_MODE_NDOF_FMC_OFF 11
+OPERATION_MODE_NDOF 12
+]
+"124
+[e E15278 . `uc
+BNO055_PAGE_ID_ADDR 7
+BNO055_CHIP_ID_ADDR 0
+BNO055_ACCEL_REV_ID_ADDR 1
+BNO055_MAG_REV_ID_ADDR 2
+BNO055_GYRO_REV_ID_ADDR 3
+BNO055_SW_REV_ID_LSB_ADDR 4
+BNO055_SW_REV_ID_MSB_ADDR 5
+BNO055_BL_REV_ID_ADDR 6
+BNO055_ACCEL_DATA_X_LSB_ADDR 8
+BNO055_ACCEL_DATA_X_MSB_ADDR 9
+BNO055_ACCEL_DATA_Y_LSB_ADDR 10
+BNO055_ACCEL_DATA_Y_MSB_ADDR 11
+BNO055_ACCEL_DATA_Z_LSB_ADDR 12
+BNO055_ACCEL_DATA_Z_MSB_ADDR 13
+BNO055_MAG_DATA_X_LSB_ADDR 14
+BNO055_MAG_DATA_X_MSB_ADDR 15
+BNO055_MAG_DATA_Y_LSB_ADDR 16
+BNO055_MAG_DATA_Y_MSB_ADDR 17
+BNO055_MAG_DATA_Z_LSB_ADDR 18
+BNO055_MAG_DATA_Z_MSB_ADDR 19
+BNO055_GYRO_DATA_X_LSB_ADDR 20
+BNO055_GYRO_DATA_X_MSB_ADDR 21
+BNO055_GYRO_DATA_Y_LSB_ADDR 22
+BNO055_GYRO_DATA_Y_MSB_ADDR 23
+BNO055_GYRO_DATA_Z_LSB_ADDR 24
+BNO055_GYRO_DATA_Z_MSB_ADDR 25
+BNO055_EULER_H_LSB_ADDR 26
+BNO055_EULER_H_MSB_ADDR 27
+BNO055_EULER_R_LSB_ADDR 28
+BNO055_EULER_R_MSB_ADDR 29
+BNO055_EULER_P_LSB_ADDR 30
+BNO055_EULER_P_MSB_ADDR 31
+BNO055_QUATERNION_DATA_W_LSB_ADDR 32
+BNO055_QUATERNION_DATA_W_MSB_ADDR 33
+BNO055_QUATERNION_DATA_X_LSB_ADDR 34
+BNO055_QUATERNION_DATA_X_MSB_ADDR 35
+BNO055_QUATERNION_DATA_Y_LSB_ADDR 36
+BNO055_QUATERNION_DATA_Y_MSB_ADDR 37
+BNO055_QUATERNION_DATA_Z_LSB_ADDR 38
+BNO055_QUATERNION_DATA_Z_MSB_ADDR 39
+BNO055_LINEAR_ACCEL_DATA_X_LSB_ADDR 40
+BNO055_LINEAR_ACCEL_DATA_X_MSB_ADDR 41
+BNO055_LINEAR_ACCEL_DATA_Y_LSB_ADDR 42
+BNO055_LINEAR_ACCEL_DATA_Y_MSB_ADDR 43
+BNO055_LINEAR_ACCEL_DATA_Z_LSB_ADDR 44
+BNO055_LINEAR_ACCEL_DATA_Z_MSB_ADDR 45
+BNO055_GRAVITY_DATA_X_LSB_ADDR 46
+BNO055_GRAVITY_DATA_X_MSB_ADDR 47
+BNO055_GRAVITY_DATA_Y_LSB_ADDR 48
+BNO055_GRAVITY_DATA_Y_MSB_ADDR 49
+BNO055_GRAVITY_DATA_Z_LSB_ADDR 50
+BNO055_GRAVITY_DATA_Z_MSB_ADDR 51
+BNO055_TEMP_ADDR 52
+BNO055_CALIB_STAT_ADDR 53
+BNO055_SELFTEST_RESULT_ADDR 54
+BNO055_INTR_STAT_ADDR 55
+BNO055_SYS_CLK_STAT_ADDR 56
+BNO055_SYS_STAT_ADDR 57
+BNO055_SYS_ERR_ADDR 58
+BNO055_UNIT_SEL_ADDR 59
+BNO055_DATA_SELECT_ADDR 60
+BNO055_OPR_MODE_ADDR 61
+BNO055_PWR_MODE_ADDR 62
+BNO055_SYS_TRIGGER_ADDR 63
+BNO055_TEMP_SOURCE_ADDR 64
+BNO055_AXIS_MAP_CONFIG_ADDR 65
+BNO055_AXIS_MAP_SIGN_ADDR 66
+BNO055_SIC_MATRIX_0_LSB_ADDR 67
+BNO055_SIC_MATRIX_0_MSB_ADDR 68
+BNO055_SIC_MATRIX_1_LSB_ADDR 69
+BNO055_SIC_MATRIX_1_MSB_ADDR 70
+BNO055_SIC_MATRIX_2_LSB_ADDR 71
+BNO055_SIC_MATRIX_2_MSB_ADDR 72
+BNO055_SIC_MATRIX_3_LSB_ADDR 73
+BNO055_SIC_MATRIX_3_MSB_ADDR 74
+BNO055_SIC_MATRIX_4_LSB_ADDR 75
+BNO055_SIC_MATRIX_4_MSB_ADDR 76
+BNO055_SIC_MATRIX_5_LSB_ADDR 77
+BNO055_SIC_MATRIX_5_MSB_ADDR 78
+BNO055_SIC_MATRIX_6_LSB_ADDR 79
+BNO055_SIC_MATRIX_6_MSB_ADDR 80
+BNO055_SIC_MATRIX_7_LSB_ADDR 81
+BNO055_SIC_MATRIX_7_MSB_ADDR 82
+BNO055_SIC_MATRIX_8_LSB_ADDR 83
+BNO055_SIC_MATRIX_8_MSB_ADDR 84
+ACCEL_OFFSET_X_LSB_ADDR 85
+ACCEL_OFFSET_X_MSB_ADDR 86
+ACCEL_OFFSET_Y_LSB_ADDR 87
+ACCEL_OFFSET_Y_MSB_ADDR 88
+ACCEL_OFFSET_Z_LSB_ADDR 89
+ACCEL_OFFSET_Z_MSB_ADDR 90
+MAG_OFFSET_X_LSB_ADDR 91
+MAG_OFFSET_X_MSB_ADDR 92
+MAG_OFFSET_Y_LSB_ADDR 93
+MAG_OFFSET_Y_MSB_ADDR 94
+MAG_OFFSET_Z_LSB_ADDR 95
+MAG_OFFSET_Z_MSB_ADDR 96
+GYRO_OFFSET_X_LSB_ADDR 97
+GYRO_OFFSET_X_MSB_ADDR 98
+GYRO_OFFSET_Y_LSB_ADDR 99
+GYRO_OFFSET_Y_MSB_ADDR 100
+GYRO_OFFSET_Z_LSB_ADDR 101
+GYRO_OFFSET_Z_MSB_ADDR 102
+ACCEL_RADIUS_LSB_ADDR 103
+ACCEL_RADIUS_MSB_ADDR 104
+MAG_RADIUS_LSB_ADDR 105
+MAG_RADIUS_MSB_ADDR 106
+]
+"62 D:\Atmel\xc8\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Atmel\xc8\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 D:\Atmel\xc8\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 D:\Atmel\xc8\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 D:\Atmel\xc8\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 D:\Atmel\xc8\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"28 D:\Atmel\xc8\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"10 D:\Atmel\xc8\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 D:\Atmel\xc8\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 D:\Atmel\xc8\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 D:\Atmel\xc8\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"51 C:\Users\haoye\Google Drive\18 sec PDM software.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"58 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"104
+[v _ADC_GetConversion ADC_GetConversion `(ui  1 e 2 0 ]
+"57 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/ccp2.c
+[v _CCP2_Initialize CCP2_Initialize `(v  1 e 1 0 ]
+"80
+[v _CCP2_CaptureISR CCP2_CaptureISR `(v  1 e 1 0 ]
+"63 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/ecan.c
+[v _ECAN_Initialize ECAN_Initialize `(v  1 e 1 0 ]
+"167
+[v _CAN_transmit CAN_transmit `(uc  1 e 1 0 ]
+"368
+[v _convertReg2ExtendedCANid convertReg2ExtendedCANid `(ul  1 e 4 0 ]
+"388
+[v _convertReg2StandardCANid convertReg2StandardCANid `(ul  1 e 4 0 ]
+"400
+[v _convertCANid2Reg convertCANid2Reg `(v  1 e 1 0 ]
+"198 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/i2c.c
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+"231
+[v _I2C_ISR I2C_ISR `(v  1 e 1 0 ]
+"561
+[v _I2C_FunctionComplete I2C_FunctionComplete `(v  1 e 1 0 ]
+"579
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"596
+[v _I2C_MasterWrite I2C_MasterWrite `(v  1 e 1 0 ]
+"617
+[v _I2C_MasterRead I2C_MasterRead `(v  1 e 1 0 ]
+"639
+[v _I2C_MasterTRBInsert I2C_MasterTRBInsert `(v  1 e 1 0 ]
+"692
+[v _I2C_MasterReadTRBBuild I2C_MasterReadTRBBuild `(v  1 e 1 0 ]
+"705
+[v _I2C_MasterWriteTRBBuild I2C_MasterWriteTRBBuild `(v  1 e 1 0 ]
+"726
+[v _I2C_BusCollisionISR I2C_BusCollisionISR `(v  1 e 1 0 ]
+"51 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"60
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"111 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"125
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"137
+[v _BNO055_Initialize BNO055_Initialize `(v  1 e 1 0 ]
+"58 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/memory.c
+[v _FLASH_ReadByte FLASH_ReadByte `(uc  1 e 1 0 ]
+"93
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"142
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"51 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"63 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"95
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"155
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"173
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"177
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"190 D:\Atmel\xc8\include\pic18f46k80.h
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3651 ]
+"266
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3652 ]
+"351
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3653 ]
+"16277
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @3808 ]
+"16397
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @3809 ]
+"16504
+[v _RXF0EIDH RXF0EIDH `VEuc  1 e 1 @3810 ]
+"16624
+[v _RXF0EIDL RXF0EIDL `VEuc  1 e 1 @3811 ]
+"16744
+[v _RXF1SIDH RXF1SIDH `VEuc  1 e 1 @3812 ]
+"16864
+[v _RXF1SIDL RXF1SIDL `VEuc  1 e 1 @3813 ]
+"16971
+[v _RXF1EIDH RXF1EIDH `VEuc  1 e 1 @3814 ]
+"17091
+[v _RXF1EIDL RXF1EIDL `VEuc  1 e 1 @3815 ]
+"17211
+[v _RXF2SIDH RXF2SIDH `VEuc  1 e 1 @3816 ]
+"17331
+[v _RXF2SIDL RXF2SIDL `VEuc  1 e 1 @3817 ]
+"17438
+[v _RXF2EIDH RXF2EIDH `VEuc  1 e 1 @3818 ]
+"17558
+[v _RXF2EIDL RXF2EIDL `VEuc  1 e 1 @3819 ]
+"17678
+[v _RXF3SIDH RXF3SIDH `VEuc  1 e 1 @3820 ]
+"17798
+[v _RXF3SIDL RXF3SIDL `VEuc  1 e 1 @3821 ]
+"17905
+[v _RXF3EIDH RXF3EIDH `VEuc  1 e 1 @3822 ]
+"18025
+[v _RXF3EIDL RXF3EIDL `VEuc  1 e 1 @3823 ]
+"18145
+[v _RXF4SIDH RXF4SIDH `VEuc  1 e 1 @3824 ]
+"18265
+[v _RXF4SIDL RXF4SIDL `VEuc  1 e 1 @3825 ]
+"18372
+[v _RXF4EIDH RXF4EIDH `VEuc  1 e 1 @3826 ]
+"18492
+[v _RXF4EIDL RXF4EIDL `VEuc  1 e 1 @3827 ]
+"18612
+[v _RXF5SIDH RXF5SIDH `VEuc  1 e 1 @3828 ]
+"18732
+[v _RXF5SIDL RXF5SIDL `VEuc  1 e 1 @3829 ]
+"18839
+[v _RXF5EIDH RXF5EIDH `VEuc  1 e 1 @3830 ]
+"18959
+[v _RXF5EIDL RXF5EIDL `VEuc  1 e 1 @3831 ]
+"19079
+[v _RXM0SIDH RXM0SIDH `VEuc  1 e 1 @3832 ]
+"19199
+[v _RXM0SIDL RXM0SIDL `VEuc  1 e 1 @3833 ]
+"19306
+[v _RXM0EIDH RXM0EIDH `VEuc  1 e 1 @3834 ]
+"19426
+[v _RXM0EIDL RXM0EIDL `VEuc  1 e 1 @3835 ]
+"19546
+[v _RXM1SIDH RXM1SIDH `VEuc  1 e 1 @3836 ]
+"19666
+[v _RXM1SIDL RXM1SIDL `VEuc  1 e 1 @3837 ]
+"19773
+[v _RXM1EIDH RXM1EIDH `VEuc  1 e 1 @3838 ]
+"19893
+[v _RXM1EIDL RXM1EIDL `VEuc  1 e 1 @3839 ]
+[s S338 . 1 `uc 1 TXPRI 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXREQ 1 0 :1:3 
+`uc 1 TXERR 1 0 :1:4 
+`uc 1 TXLARB 1 0 :1:5 
+`uc 1 TXABT 1 0 :1:6 
+`uc 1 TXBIF 1 0 :1:7 
+]
+"20043
+[s S346 . 1 `uc 1 TXPRI0 1 0 :1:0 
+`uc 1 TXPRI1 1 0 :1:1 
+]
+[s S475 . 1 `uc 1 TXB2PRI0 1 0 :1:0 
+`uc 1 TXB2PRI1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXB2REQ 1 0 :1:3 
+`uc 1 TXB2ERR 1 0 :1:4 
+`uc 1 TXB2LARB 1 0 :1:5 
+`uc 1 TXB2ABT 1 0 :1:6 
+`uc 1 TX2IF 1 0 :1:7 
+]
+[u S484 . 1 `S338 1 . 1 0 `S346 1 . 1 0 `S475 1 . 1 0 ]
+[v _TXB2CONbits TXB2CONbits `VES484  1 e 1 @3840 ]
+"20123
+[v _TXB2SIDH TXB2SIDH `VEuc  1 e 1 @3841 ]
+"20243
+[v _TXB2SIDL TXB2SIDL `VEuc  1 e 1 @3842 ]
+"20355
+[v _TXB2EIDH TXB2EIDH `VEuc  1 e 1 @3843 ]
+"20475
+[v _TXB2EIDL TXB2EIDL `VEuc  1 e 1 @3844 ]
+"20595
+[v _TXB2DLC TXB2DLC `VEuc  1 e 1 @3845 ]
+"20681
+[v _TXB2D0 TXB2D0 `VEuc  1 e 1 @3846 ]
+"20751
+[v _TXB2D1 TXB2D1 `VEuc  1 e 1 @3847 ]
+"20821
+[v _TXB2D2 TXB2D2 `VEuc  1 e 1 @3848 ]
+"20891
+[v _TXB2D3 TXB2D3 `VEuc  1 e 1 @3849 ]
+"20961
+[v _TXB2D4 TXB2D4 `VEuc  1 e 1 @3850 ]
+"21031
+[v _TXB2D5 TXB2D5 `VEuc  1 e 1 @3851 ]
+"21101
+[v _TXB2D6 TXB2D6 `VEuc  1 e 1 @3852 ]
+"21171
+[v _TXB2D7 TXB2D7 `VEuc  1 e 1 @3853 ]
+"21474
+[s S417 . 1 `uc 1 TXB1PRI0 1 0 :1:0 
+`uc 1 TXB1PRI1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXB1REQ 1 0 :1:3 
+`uc 1 TXB1ERR 1 0 :1:4 
+`uc 1 TXB1LARB 1 0 :1:5 
+`uc 1 TXB1ABT 1 0 :1:6 
+`uc 1 TX1IF 1 0 :1:7 
+]
+[u S426 . 1 `S338 1 . 1 0 `S346 1 . 1 0 `S417 1 . 1 0 ]
+[v _TXB1CONbits TXB1CONbits `VES426  1 e 1 @3856 ]
+"21554
+[v _TXB1SIDH TXB1SIDH `VEuc  1 e 1 @3857 ]
+"21674
+[v _TXB1SIDL TXB1SIDL `VEuc  1 e 1 @3858 ]
+"21786
+[v _TXB1EIDH TXB1EIDH `VEuc  1 e 1 @3859 ]
+"21906
+[v _TXB1EIDL TXB1EIDL `VEuc  1 e 1 @3860 ]
+"22026
+[v _TXB1DLC TXB1DLC `VEuc  1 e 1 @3861 ]
+"22112
+[v _TXB1D0 TXB1D0 `VEuc  1 e 1 @3862 ]
+"22182
+[v _TXB1D1 TXB1D1 `VEuc  1 e 1 @3863 ]
+"22252
+[v _TXB1D2 TXB1D2 `VEuc  1 e 1 @3864 ]
+"22322
+[v _TXB1D3 TXB1D3 `VEuc  1 e 1 @3865 ]
+"22392
+[v _TXB1D4 TXB1D4 `VEuc  1 e 1 @3866 ]
+"22462
+[v _TXB1D5 TXB1D5 `VEuc  1 e 1 @3867 ]
+"22532
+[v _TXB1D6 TXB1D6 `VEuc  1 e 1 @3868 ]
+"22602
+[v _TXB1D7 TXB1D7 `VEuc  1 e 1 @3869 ]
+"22905
+[s S349 . 1 `uc 1 TXB0PRI0 1 0 :1:0 
+`uc 1 TXB0PRI1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TXB0REQ 1 0 :1:3 
+`uc 1 TXB0ERR 1 0 :1:4 
+`uc 1 TXB0LARB 1 0 :1:5 
+`uc 1 TXB0ABT 1 0 :1:6 
+`uc 1 TX0IF 1 0 :1:7 
+]
+[u S358 . 1 `S338 1 . 1 0 `S346 1 . 1 0 `S349 1 . 1 0 ]
+[v _TXB0CONbits TXB0CONbits `VES358  1 e 1 @3872 ]
+"22985
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3873 ]
+"23105
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3874 ]
+"23217
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3875 ]
+"23337
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3876 ]
+"23457
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3877 ]
+"23543
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3878 ]
+"23613
+[v _TXB0D1 TXB0D1 `VEuc  1 e 1 @3879 ]
+"23683
+[v _TXB0D2 TXB0D2 `VEuc  1 e 1 @3880 ]
+"23753
+[v _TXB0D3 TXB0D3 `VEuc  1 e 1 @3881 ]
+"23823
+[v _TXB0D4 TXB0D4 `VEuc  1 e 1 @3882 ]
+"23893
+[v _TXB0D5 TXB0D5 `VEuc  1 e 1 @3883 ]
+"23963
+[v _TXB0D6 TXB0D6 `VEuc  1 e 1 @3884 ]
+"24033
+[v _TXB0D7 TXB0D7 `VEuc  1 e 1 @3885 ]
+[s S630 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"24351
+[s S639 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S644 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[s S649 . 1 `uc 1 RXB1FILHIT0 1 0 :1:0 
+`uc 1 RXB1FILHIT1 1 0 :1:1 
+`uc 1 RXB1FILHIT2 1 0 :1:2 
+`uc 1 RXB1FILHIT3 1 0 :1:3 
+`uc 1 RXB1FILHIT4 1 0 :1:4 
+`uc 1 RXB1M0 1 0 :1:5 
+`uc 1 RXB1M1 1 0 :1:6 
+`uc 1 RXB1FUL 1 0 :1:7 
+]
+[s S658 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB1RTRR0 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXB1RTRRO 1 0 :1:5 
+]
+[u S663 . 1 `S630 1 . 1 0 `S639 1 . 1 0 `S644 1 . 1 0 `S649 1 . 1 0 `S658 1 . 1 0 ]
+[v _RXB1CONbits RXB1CONbits `VES663  1 e 1 @3888 ]
+"24466
+[v _RXB1SIDH RXB1SIDH `VEuc  1 e 1 @3889 ]
+"24586
+[v _RXB1SIDL RXB1SIDL `VEuc  1 e 1 @3890 ]
+"24703
+[v _RXB1EIDH RXB1EIDH `VEuc  1 e 1 @3891 ]
+"24823
+[v _RXB1EIDL RXB1EIDL `VEuc  1 e 1 @3892 ]
+"24943
+[v _RXB1DLC RXB1DLC `VEuc  1 e 1 @3893 ]
+"25057
+[v _RXB1D0 RXB1D0 `VEuc  1 e 1 @3894 ]
+"25127
+[v _RXB1D1 RXB1D1 `VEuc  1 e 1 @3895 ]
+"25197
+[v _RXB1D2 RXB1D2 `VEuc  1 e 1 @3896 ]
+"25267
+[v _RXB1D3 RXB1D3 `VEuc  1 e 1 @3897 ]
+"25337
+[v _RXB1D4 RXB1D4 `VEuc  1 e 1 @3898 ]
+"25407
+[v _RXB1D5 RXB1D5 `VEuc  1 e 1 @3899 ]
+"25477
+[v _RXB1D6 RXB1D6 `VEuc  1 e 1 @3900 ]
+"25547
+[v _RXB1D7 RXB1D7 `VEuc  1 e 1 @3901 ]
+"26237
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @3920 ]
+"26400
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @3921 ]
+"26420
+[v _CCPR2H CCPR2H `VEuc  1 e 1 @3922 ]
+"26910
+[v _WPUB WPUB `VEuc  1 e 1 @3931 ]
+"26972
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3932 ]
+"27072
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3933 ]
+[s S522 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 JTOFF_FILHIT1 1 0 :1:1 
+`uc 1 RB0DBEN_FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"27765
+[s S531 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 JTOFF 1 0 :1:1 
+`uc 1 RB0DBEN 1 0 :1:2 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[s S538 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S545 . 1 `uc 1 RXB0FILHIT0 1 0 :1:0 
+`uc 1 RXB0FILHIT1 1 0 :1:1 
+`uc 1 RXB0FILHIT2 1 0 :1:2 
+`uc 1 RXB0FILHIT3 1 0 :1:3 
+`uc 1 RXB0FILHIT4 1 0 :1:4 
+`uc 1 RXB0M0 1 0 :1:5 
+`uc 1 RXB0M1 1 0 :1:6 
+`uc 1 RXB0FUL 1 0 :1:7 
+]
+[s S554 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB0RTRR0 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXB0RTRRO 1 0 :1:5 
+]
+[u S559 . 1 `S522 1 . 1 0 `S531 1 . 1 0 `S538 1 . 1 0 `S545 1 . 1 0 `S554 1 . 1 0 ]
+[v _RXB0CONbits RXB0CONbits `VES559  1 e 1 @3936 ]
+"27900
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"28020
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"28137
+[v _RXB0EIDH RXB0EIDH `VEuc  1 e 1 @3939 ]
+"28257
+[v _RXB0EIDL RXB0EIDL `VEuc  1 e 1 @3940 ]
+"28377
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"28491
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"28561
+[v _RXB0D1 RXB0D1 `VEuc  1 e 1 @3943 ]
+"28631
+[v _RXB0D2 RXB0D2 `VEuc  1 e 1 @3944 ]
+"28701
+[v _RXB0D3 RXB0D3 `VEuc  1 e 1 @3945 ]
+"28771
+[v _RXB0D4 RXB0D4 `VEuc  1 e 1 @3946 ]
+"28841
+[v _RXB0D5 RXB0D5 `VEuc  1 e 1 @3947 ]
+"28911
+[v _RXB0D6 RXB0D6 `VEuc  1 e 1 @3948 ]
+"28981
+[v _RXB0D7 RXB0D7 `VEuc  1 e 1 @3949 ]
+"29051
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"29162
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+[s S2075 . 1 `uc 1 CLKSEL 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 CANCAP 1 0 :1:4 
+`uc 1 ENDRHI 1 0 :1:5 
+`uc 1 TX2EN 1 0 :1:6 
+`uc 1 TX2SRC 1 0 :1:7 
+]
+"29269
+[u S2082 . 1 `S2075 1 . 1 0 ]
+[v _CIOCONbits CIOCONbits `VES2082  1 e 1 @3952 ]
+[s S716 . 1 `uc 1 EWARN 1 0 :1:0 
+`uc 1 RXWARN 1 0 :1:1 
+`uc 1 TXWARN 1 0 :1:2 
+`uc 1 RXBP 1 0 :1:3 
+`uc 1 TXBP 1 0 :1:4 
+`uc 1 TXBO 1 0 :1:5 
+`uc 1 RXB1OVFL 1 0 :1:6 
+`uc 1 RXB0OVFL 1 0 :1:7 
+]
+"29329
+[s S725 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_FIFOEMPTY 1 0 :1:7 
+]
+[s S728 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 nFIFOEMPTY 1 0 :1:7 
+]
+[s S731 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RXBNOVFL 1 0 :1:6 
+`uc 1 FIFOEMPTY 1 0 :1:7 
+]
+[u S735 . 1 `S716 1 . 1 0 `S725 1 . 1 0 `S728 1 . 1 0 `S731 1 . 1 0 ]
+[v _COMSTATbits COMSTATbits `VES735  1 e 1 @3953 ]
+"29394
+[v _ECANCON ECANCON `VEuc  1 e 1 @3954 ]
+"29471
+[v _EEDATA EEDATA `VEuc  1 e 1 @3955 ]
+"29491
+[v _EEADR EEADR `VEuc  1 e 1 @3956 ]
+"29511
+[v _EEADRH EEADRH `VEuc  1 e 1 @3957 ]
+[s S291 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+`uc 1 ERRIE 1 0 :1:5 
+`uc 1 WAKIE 1 0 :1:6 
+`uc 1 IRXIE 1 0 :1:7 
+]
+"29554
+[s S300 . 1 `uc 1 FIFOWMIE 1 0 :1:0 
+`uc 1 RXBnIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBnIE 1 0 :1:4 
+]
+[u S305 . 1 `S291 1 . 1 0 `S300 1 . 1 0 ]
+[v _PIE5bits PIE5bits `VES305  1 e 1 @3958 ]
+[s S259 . 1 `uc 1 RXB0IF 1 0 :1:0 
+`uc 1 RXB1IF 1 0 :1:1 
+`uc 1 TXB0IF 1 0 :1:2 
+`uc 1 TXB1IF 1 0 :1:3 
+`uc 1 TXB2IF 1 0 :1:4 
+`uc 1 ERRIF 1 0 :1:5 
+`uc 1 WAKIF 1 0 :1:6 
+`uc 1 IRXIF 1 0 :1:7 
+]
+"29637
+[s S268 . 1 `uc 1 FIFOWMIF 1 0 :1:0 
+`uc 1 RXBnIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBnIF 1 0 :1:4 
+]
+[u S273 . 1 `S259 1 . 1 0 `S268 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES273  1 e 1 @3959 ]
+"29907
+[v _EECON2 EECON2 `VEuc  1 e 1 @3966 ]
+[s S1059 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"29948
+[s S1068 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S1071 . 1 `S1059 1 . 1 0 `S1068 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES1071  1 e 1 @3967 ]
+"30490
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"30592
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"30704
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"30816
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"30928
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"31086
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"31143
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"31205
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"31267
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"31329
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S1171 . 1 `uc 1 C1TSEL 1 0 :1:0 
+`uc 1 C2TSEL 1 0 :1:1 
+`uc 1 C3TSEL 1 0 :1:2 
+`uc 1 C4TSEL 1 0 :1:3 
+`uc 1 C5TSEL 1 0 :1:4 
+]
+"31375
+[u S1177 . 1 `S1171 1 . 1 0 ]
+[v _CCPTMRSbits CCPTMRSbits `VES1177  1 e 1 @3993 ]
+"31405
+[v _REFOCON REFOCON `VEuc  1 e 1 @3994 ]
+"31470
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S1452 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR1GIE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"31628
+[s S1461 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S1465 . 1 `S1452 1 . 1 0 `S1461 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES1465  1 e 1 @3997 ]
+[s S1482 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"31705
+[s S1491 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S1495 . 1 `S1482 1 . 1 0 `S1491 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1495  1 e 1 @3998 ]
+[s S1400 . 1 `uc 1 TMR3GIE 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 HLVDIE 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"31856
+[s S1407 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIE 1 0 :1:2 
+]
+[u S1410 . 1 `S1400 1 . 1 0 `S1407 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES1410  1 e 1 @4000 ]
+[s S1424 . 1 `uc 1 TMR3GIF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"31910
+[s S1431 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+[u S1434 . 1 `S1424 1 . 1 0 `S1431 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1434  1 e 1 @4001 ]
+[s S1214 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP1IE 1 0 :1:1 
+`uc 1 CCP2IE 1 0 :1:2 
+`uc 1 CTMUIE 1 0 :1:3 
+`uc 1 TX2IE 1 0 :1:4 
+`uc 1 RC2IE 1 0 :1:5 
+]
+"32027
+[s S1221 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S1227 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S1232 . 1 `S1214 1 . 1 0 `S1221 1 . 1 0 `S1227 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES1232  1 e 1 @4003 ]
+[s S1186 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP1IF 1 0 :1:1 
+`uc 1 CCP2IF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+]
+"32108
+[s S1193 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S1198 . 1 `S1186 1 . 1 0 `S1193 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES1198  1 e 1 @4004 ]
+"32591
+[v _T1GCON T1GCON `VEuc  1 e 1 @4010 ]
+[s S1708 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO_NOT_T1DONE 1 0 :1:3 
+]
+"32625
+[s S1711 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nT1DONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+[s S1719 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T1GGO 1 0 :1:3 
+]
+[s S1724 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_T1DONE 1 0 :1:3 
+]
+[s S1727 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 nT1DONE 1 0 :1:3 
+]
+[u S1730 . 1 `S1708 1 . 1 0 `S1711 1 . 1 0 `S1719 1 . 1 0 `S1724 1 . 1 0 `S1727 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES1730  1 e 1 @4010 ]
+[s S1095 . 1 `uc 1 CCP3IF 1 0 :1:0 
+`uc 1 CCP4IF 1 0 :1:1 
+`uc 1 CCP5IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CMP1IF 1 0 :1:4 
+`uc 1 CMP2IF 1 0 :1:5 
+`uc 1 EEIF 1 0 :1:6 
+`uc 1 TMR4IF 1 0 :1:7 
+]
+"33938
+[u S1104 . 1 `S1095 1 . 1 0 ]
+"33938
+"33938
+[v _PIR4bits PIR4bits `VES1104  1 e 1 @4023 ]
+"34761
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"34832
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"34936
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S915 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"34981
+[s S918 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+"34981
+[s S922 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"34981
+[s S930 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+"34981
+[s S933 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+"34981
+[s S936 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+"34981
+[s S939 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+"34981
+[s S942 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+"34981
+[u S945 . 1 `S915 1 . 1 0 `S918 1 . 1 0 `S922 1 . 1 0 `S930 1 . 1 0 `S933 1 . 1 0 `S936 1 . 1 0 `S939 1 . 1 0 `S942 1 . 1 0 ]
+"34981
+"34981
+[v _ADCON0bits ADCON0bits `VES945  1 e 1 @4034 ]
+"35068
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"35088
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S1902 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"35133
+[s S1911 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+"35133
+[u S1918 . 1 `S1902 1 . 1 0 `S1911 1 . 1 0 ]
+"35133
+"35133
+[v _SSPCON2bits SSPCON2bits `VES1918  1 e 1 @4037 ]
+"35203
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+[s S1876 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"35223
+[s S1882 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+"35223
+[u S1887 . 1 `S1876 1 . 1 0 `S1882 1 . 1 0 ]
+"35223
+"35223
+[v _SSPCON1bits SSPCON1bits `VES1887  1 e 1 @4038 ]
+"35273
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"35505
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"35575
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"35812
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+[s S1660 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+"35844
+[s S1663 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+"35844
+[s S1670 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+"35844
+[s S1676 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 T1RD16 1 0 :1:7 
+]
+"35844
+[u S1681 . 1 `S1660 1 . 1 0 `S1663 1 . 1 0 `S1670 1 . 1 0 `S1676 1 . 1 0 ]
+"35844
+"35844
+[v _T1CONbits T1CONbits `VES1681  1 e 1 @4045 ]
+"35921
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"35941
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+[s S1297 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"36009
+[s S1299 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+"36009
+[s S1302 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+"36009
+[s S1305 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+"36009
+[s S1308 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+"36009
+[s S1311 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+"36009
+[s S1314 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+"36009
+[s S1323 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+"36009
+[u S1330 . 1 `S1297 1 . 1 0 `S1299 1 . 1 0 `S1302 1 . 1 0 `S1305 1 . 1 0 `S1308 1 . 1 0 `S1311 1 . 1 0 `S1314 1 . 1 0 `S1323 1 . 1 0 ]
+"36009
+"36009
+[v _RCONbits RCONbits `VES1330  1 e 1 @4048 ]
+"36174
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"36246
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S1005 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"37234
+[s S1014 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"37234
+[s S1023 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"37234
+[u S1027 . 1 `S1005 1 . 1 0 `S1014 1 . 1 0 `S1023 1 . 1 0 ]
+"37234
+"37234
+[v _INTCONbits INTCONbits `VES1027  1 e 1 @4082 ]
+"37476
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"37505
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @4086 ]
+"37525
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @4087 ]
+"37545
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @4088 ]
+"75 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/ccp2.h
+[v _cycle_num cycle_num `VEuc  1 e 1 0 ]
+"76
+[v _read_available read_available `VEuc  1 e 1 0 ]
+"77
+[v _time_diff time_diff `VEui  1 e 2 0 ]
+"78
+[v _prev_reading prev_reading `VEui  1 e 2 0 ]
+[s S1797 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"184 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/i2c.c
+[s S1809 . 5 `uc 1 count 1 0 `*.39S1797 1 ptrb_list 2 1 `*.39E15091 1 pTrFlag 2 3 ]
+[v _i2c_tr_queue i2c_tr_queue `[1]S1809  1 s 5 i2c_tr_queue ]
+"185
+[s S1813 . 1 `uc 1 full 1 0 :1:0 
+`uc 1 empty 1 0 :1:1 
+`uc 1 reserved 1 0 :6:2 
+]
+[u S1817 . 1 `S1813 1 s 1 0 `uc 1 status 1 0 ]
+[s S1820 . 7 `*.39S1809 1 pTrTail 2 0 `*.39S1809 1 pTrHead 2 2 `S1817 1 trStatus 1 4 `uc 1 i2cDoneFlag 1 5 `uc 1 i2cErrors 1 6 ]
+[v _i2c_object i2c_object `S1820  1 s 7 i2c_object ]
+"186
+[v _i2c_state i2c_state `E15159  1 s 1 i2c_state ]
+"187
+[v _i2c_trb_count i2c_trb_count `uc  1 s 1 i2c_trb_count ]
+"189
+[v _p_i2c_trb_current p_i2c_trb_current `*.39S1797  1 s 2 p_i2c_trb_current ]
+"190
+[v _p_i2c_current p_i2c_current `*.39S1809  1 s 2 p_i2c_current ]
+"56 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEui  1 e 2 0 ]
+"57
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"51 C:\Users\haoye\Google Drive\18 sec PDM software.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+[s S323 . 14 `uc 1 idType 1 0 `ul 1 id 4 1 `uc 1 dlc 1 5 `uc 1 data0 1 6 `uc 1 data1 1 7 `uc 1 data2 1 8 `uc 1 data3 1 9 `uc 1 data4 1 10 `uc 1 data5 1 11 `uc 1 data6 1 12 `uc 1 data7 1 13 ]
+"105
+[u S335 . 14 `S323 1 frame 14 0 `[14]uc 1 array 14 0 ]
+[v main@test test `S335  1 a 14 53 ]
+"146
+[v main@G_sensor_data G_sensor_data `S335  1 a 14 39 ]
+"62
+[v main@x x `d  1 a 3 24 ]
+"61
+[v main@VDD VDD `d  1 a 3 21 ]
+"65
+[v main@ADCResult ADCResult `ui  1 a 2 27 ]
+"69
+[v main@status status `E15164  1 a 1 38 ]
+"64
+[v main@ADC_result_L ADC_result_L `uc  1 a 1 37 ]
+[v main@ADC_result_H ADC_result_H `uc  1 a 1 36 ]
+"67
+[v main@linear_accel_z_MSB linear_accel_z_MSB `uc  1 a 1 35 ]
+[v main@linear_accel_z_LSB linear_accel_z_LSB `uc  1 a 1 34 ]
+[v main@linear_accel_y_MSB linear_accel_y_MSB `uc  1 a 1 33 ]
+"66
+[v main@linear_accel_y_LSB linear_accel_y_LSB `uc  1 a 1 32 ]
+[v main@linear_accel_x_MSB linear_accel_x_MSB `uc  1 a 1 31 ]
+[v main@linear_accel_x_LSB linear_accel_x_LSB `uc  1 a 1 30 ]
+"68
+[v main@message message `uc  1 a 1 29 ]
+"184
+} 0
+"28 D:\Atmel\xc8\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 27 ]
+"31
+} 0
+"44 D:\Atmel\xc8\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 16 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 20 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 15 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 6 ]
+"73
+} 0
+"62 D:\Atmel\xc8\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 1 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 5 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 4 ]
+[v ___ftmul@exp exp `uc  1 a 1 0 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 30 ]
+[v ___ftmul@f2 f2 `f  1 p 3 33 ]
+"157
+} 0
+"54 D:\Atmel\xc8\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 1 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 5 ]
+[v ___ftdiv@exp exp `uc  1 a 1 4 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 0 ]
+"54
+[v ___ftdiv@f1 f1 `f  1 p 3 27 ]
+[v ___ftdiv@f2 f2 `f  1 p 3 30 ]
+"86
+} 0
+"62 D:\Atmel\xc8\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 19 ]
+[v ___ftpack@exp exp `uc  1 p 1 22 ]
+[v ___ftpack@sign sign `uc  1 p 1 23 ]
+"86
+} 0
+"111 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"123
+} 0
+"63 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"93
+} 0
+"95
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"99
+} 0
+"173
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.2v  1 p 2 19 ]
+"175
+} 0
+"51 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"87
+} 0
+"125 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"135
+} 0
+"51 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"198 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/i2c.c
+[v _I2C_Initialize I2C_Initialize `(v  1 e 1 0 ]
+{
+"220
+} 0
+"63 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/ecan.c
+[v _ECAN_Initialize ECAN_Initialize `(v  1 e 1 0 ]
+{
+"153
+} 0
+"57 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/ccp2.c
+[v _CCP2_Initialize CCP2_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"137 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/mcc.c
+[v _BNO055_Initialize BNO055_Initialize `(v  1 e 1 0 ]
+{
+"141
+[v BNO055_Initialize@pflag pflag `E15164  1 a 1 37 ]
+"140
+[v BNO055_Initialize@message message `uc  1 a 1 36 ]
+"139
+[v BNO055_Initialize@id id `uc  1 a 1 35 ]
+"184
+} 0
+"596 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/i2c.c
+[v _I2C_MasterWrite I2C_MasterWrite `(v  1 e 1 0 ]
+{
+"597
+[v I2C_MasterWrite@pdata pdata `*.39uc  1 p 2 28 ]
+"598
+[v I2C_MasterWrite@length length `uc  1 p 1 30 ]
+"599
+[v I2C_MasterWrite@address address `ui  1 p 2 31 ]
+"600
+[v I2C_MasterWrite@pflag pflag `*.39E15091  1 p 2 33 ]
+[s S1797 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"602
+[v I2C_MasterWrite@trBlock trBlock `S1797  1 s 5 trBlock ]
+"615
+} 0
+"705
+[v _I2C_MasterWriteTRBBuild I2C_MasterWriteTRBBuild `(v  1 e 1 0 ]
+{
+[s S1797 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"706
+[v I2C_MasterWriteTRBBuild@ptrb ptrb `*.39S1797  1 p 2 19 ]
+"707
+[v I2C_MasterWriteTRBBuild@pdata pdata `*.39uc  1 p 2 21 ]
+"708
+[v I2C_MasterWriteTRBBuild@length length `uc  1 p 1 23 ]
+"709
+[v I2C_MasterWriteTRBBuild@address address `ui  1 p 2 24 ]
+"714
+} 0
+"617
+[v _I2C_MasterRead I2C_MasterRead `(v  1 e 1 0 ]
+{
+"618
+[v I2C_MasterRead@pdata pdata `*.39uc  1 p 2 28 ]
+"619
+[v I2C_MasterRead@length length `uc  1 p 1 30 ]
+"620
+[v I2C_MasterRead@address address `ui  1 p 2 31 ]
+"621
+[v I2C_MasterRead@pflag pflag `*.39E15091  1 p 2 33 ]
+[s S1797 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"623
+[v I2C_MasterRead@trBlock trBlock `S1797  1 s 5 trBlock ]
+"637
+} 0
+"639
+[v _I2C_MasterTRBInsert I2C_MasterTRBInsert `(v  1 e 1 0 ]
+{
+"640
+[v I2C_MasterTRBInsert@count count `uc  1 a 1 wreg ]
+[v I2C_MasterTRBInsert@count count `uc  1 a 1 wreg ]
+[s S1797 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"641
+[v I2C_MasterTRBInsert@ptrb_list ptrb_list `*.39S1797  1 p 2 19 ]
+"642
+[v I2C_MasterTRBInsert@pflag pflag `*.39E15091  1 p 2 21 ]
+"646
+[v I2C_MasterTRBInsert@count count `uc  1 a 1 24 ]
+"690
+} 0
+"692
+[v _I2C_MasterReadTRBBuild I2C_MasterReadTRBBuild `(v  1 e 1 0 ]
+{
+[s S1797 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"693
+[v I2C_MasterReadTRBBuild@ptrb ptrb `*.39S1797  1 p 2 19 ]
+"694
+[v I2C_MasterReadTRBBuild@pdata pdata `*.39uc  1 p 2 21 ]
+"695
+[v I2C_MasterReadTRBBuild@length length `uc  1 p 1 23 ]
+"696
+[v I2C_MasterReadTRBBuild@address address `ui  1 p 2 24 ]
+"703
+} 0
+"58 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"167 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/ecan.c
+[v _CAN_transmit CAN_transmit `(uc  1 e 1 0 ]
+{
+"171
+[v CAN_transmit@tempSIDL tempSIDL `uc  1 a 1 4 ]
+"170
+[v CAN_transmit@tempSIDH tempSIDH `uc  1 a 1 3 ]
+"169
+[v CAN_transmit@tempEIDL tempEIDL `uc  1 a 1 2 ]
+"168
+[v CAN_transmit@tempEIDH tempEIDH `uc  1 a 1 1 ]
+"173
+[v CAN_transmit@returnValue returnValue `uc  1 a 1 0 ]
+[s S323 . 14 `uc 1 idType 1 0 `ul 1 id 4 1 `uc 1 dlc 1 5 `uc 1 data0 1 6 `uc 1 data1 1 7 `uc 1 data2 1 8 `uc 1 data3 1 9 `uc 1 data4 1 10 `uc 1 data5 1 11 `uc 1 data6 1 12 `uc 1 data7 1 13 ]
+"167
+[u S335 . 14 `S323 1 frame 14 0 `[14]uc 1 array 14 0 ]
+[v CAN_transmit@tempCanMsg tempCanMsg `*.39S335  1 p 2 37 ]
+"240
+} 0
+"400
+[v _convertCANid2Reg convertCANid2Reg `(v  1 e 1 0 ]
+{
+"401
+[v convertCANid2Reg@wipSIDL wipSIDL `uc  1 a 1 36 ]
+"400
+[v convertCANid2Reg@tempPassedInID tempPassedInID `ul  1 p 4 19 ]
+[v convertCANid2Reg@canIdType canIdType `uc  1 p 1 23 ]
+[v convertCANid2Reg@passedInEIDH passedInEIDH `*.39uc  1 p 2 24 ]
+[v convertCANid2Reg@passedInEIDL passedInEIDL `*.39uc  1 p 2 26 ]
+[v convertCANid2Reg@passedInSIDH passedInSIDH `*.39uc  1 p 2 28 ]
+[v convertCANid2Reg@passedInSIDL passedInSIDL `*.39uc  1 p 2 30 ]
+"433
+} 0
+"104 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/adc.c
+[v _ADC_GetConversion ADC_GetConversion `(ui  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E15090  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E15090  1 a 1 wreg ]
+"107
+[v ADC_GetConversion@channel channel `E15090  1 a 1 23 ]
+"123
+} 0
+"60 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"83
+} 0
+"155 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"170
+} 0
+"177
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"180
+} 0
+"231 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/i2c.c
+[v _I2C_ISR I2C_ISR `(v  1 e 1 0 ]
+{
+"234
+[v I2C_ISR@pi2c_buf_ptr pi2c_buf_ptr `*.39uc  1 s 2 pi2c_buf_ptr ]
+"235
+[v I2C_ISR@i2c_address i2c_address `ui  1 s 2 i2c_address ]
+"236
+[v I2C_ISR@i2c_bytes_left i2c_bytes_left `uc  1 s 1 i2c_bytes_left ]
+"237
+[v I2C_ISR@i2c_10bit_address_restart i2c_10bit_address_restart `uc  1 s 1 i2c_10bit_address_restart ]
+"559
+} 0
+"579
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+[v I2C_Stop@completion_code completion_code `E15091  1 a 1 wreg ]
+[v I2C_Stop@completion_code completion_code `E15091  1 a 1 wreg ]
+"582
+[v I2C_Stop@completion_code completion_code `E15091  1 a 1 2 ]
+"594
+} 0
+"561
+[v _I2C_FunctionComplete I2C_FunctionComplete `(v  1 e 1 0 ]
+{
+"577
+} 0
+"726
+[v _I2C_BusCollisionISR I2C_BusCollisionISR `(v  1 e 1 0 ]
+{
+"729
+} 0
+"80 C:\Users\haoye\Google Drive\18 sec PDM software.X\mcc_generated_files/ccp2.c
+[v _CCP2_CaptureISR CCP2_CaptureISR `(v  1 e 1 0 ]
+{
+[s S1255 . 2 `uc 1 ccpr2l 1 0 `uc 1 ccpr2h 1 1 ]
+"82
+[s S1258 . 2 `ui 1 ccpr2_16Bit 2 0 ]
+[u S1260 CCPR2Reg_tag 2 `S1255 1 . 2 0 `S1258 1 . 2 0 ]
+[v CCP2_CaptureISR@module module `S1260  1 a 2 2 ]
+"101
+} 0
